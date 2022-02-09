@@ -11,7 +11,7 @@ urlpatterns = [
     path('service',views.service,name="service"),
     
     path('shop/', include('shop.urls'))
-]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]
 
 
 
